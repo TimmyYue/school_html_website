@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minecraft史-首頁</title>
+    <script src="https://kit.fontawesome.com/ea15332052.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <style>
+        .banner {
+            width: auto;
+            height: 70px;
+            background-color: rgb(117, 147, 245);
+        }
+
+        .link {
+            text-align: center;
+            position: relative;
+            letter-spacing: 10px;
+            font-size: 150%;
+            top: 50%;
+            transform: translate(0%, -50%);
+        }
+
+        .link a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .link a:hover {
+            color: black;
+            transition: all 1s 0s ease;
+        }
+
+        .icon {
+            position: relative;
+            top: 10px;
+            left: 5px;
+            float: left;
+        }
+
+        .row0 {
+            display: flex;
+        }
+
+        .row1 {
+            display: flex;
+        }
+
+        .row2 {
+            display: flex;
+        }
+
+        .row3 {
+            display: flex;
+        }
+
+        .card-text {
+            font-size: 17px;
+        }
+
+        .container0 {
+            width: auto;
+            height: 80%;
+            background-color: rgb(225, 247, 165);
+        }
+
+        .container1 {
+            width: auto;
+            height: 400%;
+            background-color: rgb(225, 247, 165);
+            display: flex;
+            position: relative;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container2 {
+            width: auto;
+            height: 400%;
+            background-color: rgb(225, 247, 165);
+            display: flex;
+            position: relative;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container3 {
+            width: auto;
+            height: 100%;
+            background-color: rgb(225, 247, 165);
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item1 {
+            display: inline-block;
+            position: relative;
+            margin-right: 3%;
+            margin-left: 3%;
+            margin-bottom: 3%;
+        }
+
+        .item2 {
+            display: inline-block;
+            position: relative;
+            margin: 3%;
+        }
+
+        .item3 {
+            display: inline-block;
+            position: relative;
+            margin: 3%;
+        }
+
+        .container2 .item2 img {
+            width: 50%;
+            height: 60%;
+            position: relative;
+            padding-top: 2%;
+            left: 25%;
+        }
+
+        .footer {
+            background-color: rgb(117, 147, 245);
+            width: 100%;
+            height: 50px;
+            color: white;
+            font-weight: bold;
+            position: relative;
+            font-weight: 100%;
+        }
+
+        .copyright {
+            position: relative;
+            text-align: center;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            display: inline-flex;
+        }
+
+        .ad {
+            width: 70px;
+            height: 70px;
+            position: fixed;
+            top: 80%;
+            right: 3%;
+            opacity: 20%;
+        }
+
+        .ad img {
+            width: 70px;
+            height: 70px;
+            margin: 2px 2px;
+        }
+
+        .line {
+            width: auto;
+            height: 50px;
+            background-color: rgb(117, 147, 245);
+            text-align: center;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            color: white;
+            font-size: 19px;
+        }
+
+        .row1-text {
+            display: flex;
+            background-color: rgb(225, 247, 165);
+            width: auto;
+            height: 10%;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 19px;
+            font-weight: bold;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+
+        .item1 .card-title {
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .item2 .card-title {
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .item3 .card-title {
+            font-weight: bold;
+            font-size: 19px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ad">
+        <img src="images/minecraft-icon.webp" alt="">
+    </div>
+    <div class="banner" id="#home">
+        <a href="#home" class="icon">
+            <img src="images/icon.ico" width="50" height="50">
+        </a>
+        <div class="link">
+            <a href="#home">首頁</a>
+            <a href="about.html">關於麥塊</a>
+            <a href="#">遊戲特色</a>
+            <a href="#">自然建築</a>
+        </div>
+    </div>
+    <div class="container0" id="#home">
+        <div class="row0">
+            <img src="images/home_back3.webp" width="100%" height="80%">
+            <div class="item0">
+            </div>
+        </div>
+    </div>
+    <div class="line" id="changelog">版本更新</div>
+    <div class="row1-text">關於Minecraft近代大版本更新紀錄</div>
+    <div class="container1">
+        <div class="row1">
+            <div class="item1">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/1.21.6.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Minecraft 1.21.6 - 追逐天空</h6>
+                                <p class="card-text">此次更新加入了快樂幽靈、帽鞍及定位條等，並修復了一些錯誤。此外也針對環境氛圍進行優化，使遊戲的霧氣更加明顯，看起來更自然又舒服！.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/1.21.4.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Minecraft 1.21.4 - 蒼園覺醒</h6>
+                                <p class="card-text">此次更新正式加入了蒼白之園和嘎枝及一系列相關特性，並修復一些錯誤。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/1.21.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Minecraft 1.21 - 棘巧試煉</h6>
+                                <p class="card-text">此次更新加入了試煉密室結構，新生物旋風使者和沼骸，不祥事件，以及大量的新方塊與新物品。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="line" id="about">遊戲特色</div>
+    <div class="container2">
+        <div class="row2">
+            <div class="item2">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/grass.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">自由與探索</h5>
+                                <p class="card-text">遊戲的世界是隨機生成且無限大的，充滿了不同的生態域，<br>例如沙漠、森林、海洋。你永遠不知道下一座山丘後面有什麼。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/crafting.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">無限可能</h5>
+                                <p class="card-text">從簡單的庇護所、宏偉的城堡、複雜的紅石電路，<br>到在空中重現世界奇觀，你的想像力就是唯一的限制。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/iron_sword.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">生存與挑戰</h5>
+                                <p class="card-text">在夜晚或黑暗的地方，帶來了不知的挑戰，<br>會出現各種敵對生物（如殭屍、骷髏弓箭手、苦力怕）。你必須管理自己的生命值和飢餓度。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="line" id="villager">自然建築</div>
+
+    <div class="container3">
+        <div class="row3">
+            <div class="item3">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/villager.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">村莊</h5>
+                                <p class="card-text">
+                                    村莊是自然生成的社群，由具有不同職業的村民居住，並由鐵魔像守衛。它們是玩家進行交易（用綠寶石換取稀有物品）以獲取資源的重要地點，但同時也容易成為殭屍和掠奪者的攻擊目標。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/woodland.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">林地府邸</h5>
+                                <p class="card-text">
+                                    林地府邸是一種極稀有的巨大黑森林建築，被強大的敵對生物如會掉落不死圖騰的喚魔者佔據。它是玩家透過探險地圖尋找的，充滿危險但能獲得稀有戰利品的終極探險地點。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/desert_temple.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">沙漠神殿</h5>
+                                <p class="card-text">沙漠神殿是一種生成在沙漠的巨大金字塔結構，底部地板下藏有四個寶箱，但中心設有一個致命的TNT
+                                    壓力板陷阱。玩家必須小心進入並立即拆除陷阱，才能安全獲得戰利品。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="copyright">
+            <div class="copyright2">
+                <p>Copyright © Timmy Yue</p>
+            </div>
+            <div class="link-about"><a class="nav-link active text-wrap"
+                    href="https://github.com/TimmyYue/simple_html_website" id="navItem">
+                    <i class="fa-brands fa-github"></i>
+                    <span>Github</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
